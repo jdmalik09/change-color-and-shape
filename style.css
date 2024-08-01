@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-color: #eaf4f4;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg .card{
+    background-color: #ffffff;
+    height: 400px;
+    width: 400px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 20px 0 rgba(0, 0, 0, 1.5) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bg .card .outer-circle{
+    background-color: #cd66ec;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer-circle div {
+    transition: all 0.3s ease;
+}
+
+
+.bg .card .buttons{
+    margin: 40px;
+    display: flex;
+    gap: 50px;
+    button{
+        padding: 20px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+    }
+}
+
+
+
+.outer-circle #square{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+}
+.outer-circle #round{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+}
+.outer-circle #diamond{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+}
+.outer-circle #triangle{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.outer-circle #arrow{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(40% 0%, 40% 20%, 100% 20%, 100% 80%, 40% 80%, 40% 100%, 0% 50%);
+}
+.outer-circle #frame{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(0% 0%, 0% 100%, 25% 100%, 25% 25%, 75% 25%, 75% 75%, 25% 75%, 25% 100%, 100% 100%, 100% 0%); 
+}
+.outer-circle #star{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+.outer-circle #cross{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+}
+.outer-circle #left-point{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+}
+.outer-circle #right-point{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+}
+.outer-circle #parallal{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.outer-circle #cheg{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
